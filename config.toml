@@ -1,0 +1,5 @@
+baseURL = "https://natsumemichiru.github.io/blogTest/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "tale"
+publishDir = "docs"
