@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://natsumemichiru.github.io/blogTest/categories/</loc>
+    <loc>https://natsumemichiru.xyz/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://natsumemichiru.github.io/blogTest/</loc>
+    <loc>https://natsumemichiru.xyz/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://natsumemichiru.github.io/blogTest/tags/</loc>
+    <loc>https://natsumemichiru.xyz/tags/</loc>
     <priority>0</priority>
   </url>
   
