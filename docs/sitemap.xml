@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://natsumemichiru.xyz/posts/a-markdown-test-page/</loc>
+    <loc>https://natsumemichiru.xyz/post/a-markdown-test-page/</loc>
     <lastmod>2019-08-02T01:11:56+08:00</lastmod>
   </url>
   
@@ -14,23 +14,23 @@
   </url>
   
   <url>
-    <loc>https://natsumemichiru.xyz/posts/</loc>
+    <loc>https://natsumemichiru.xyz/post/</loc>
     <lastmod>2019-08-02T01:11:56+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://natsumemichiru.xyz/posts/my-third-post/</loc>
+    <loc>https://natsumemichiru.xyz/post/my-third-post/</loc>
     <lastmod>2019-05-30T00:10:24+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://natsumemichiru.xyz/posts/my-second-post/</loc>
+    <loc>https://natsumemichiru.xyz/post/my-second-post/</loc>
     <lastmod>2019-05-30T00:10:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://natsumemichiru.xyz/posts/my-first-post/</loc>
+    <loc>https://natsumemichiru.xyz/post/my-first-post/</loc>
     <lastmod>2019-05-30T00:10:08+08:00</lastmod>
   </url>
   

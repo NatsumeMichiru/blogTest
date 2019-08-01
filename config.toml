@@ -3,3 +3,7 @@ languageCode = "en-us"
 title = "Michiru's Site"
 theme = "tale"
 publishDir = "docs"
+[Author]
+name = "Natsume Michiru"
+[params]
+css = ["my.css"]

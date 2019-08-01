@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>
+				A Markdown Test Page &middot; Michiru&#39;s Site
+		</title>
+
+		
+  		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+		<link rel="stylesheet" href="/my.css">
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Michiru&#39;s Site" />
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/">
+					<h2 class="nav-title">Michiru&#39;s Site</h2>
+				</a>
+				<ul>
+    <li><a href="/about">About</a></li>
+    <li><a href="/">Posts</a></li>
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        
+        <br>
+        <span>on&nbsp;</span><time datetime="2019-08-02 01:11:56 &#43;0800 CST">August 2, 2019</time>
+</div>
+		<h1 class="post-title">A Markdown Test Page</h1>
+<div class="post-line"></div>
+
+		
+
+		
+
+<h1 id="welcome-to-marxico">Welcome to Marxico</h1>
+
+<p>@(Sample notebook)[Marxico|Manual|Markdown]</p>
+
+<p><strong>Marxico</strong> is a delicate Markdown editor for Evernote. With reliable storage and sync powered by Evernote, <strong>Marxico</strong> offers greate writing experience.</p>
+
+<ul>
+<li><strong>Versatile</strong> - supporting code highlight, <em>LaTeX</em> &amp; flow charts,  inserting images &amp; attachments by all means.</li>
+<li><strong>Exquisite</strong> -  neat but powerful editor, featuring offline docs, live preview, and offering the <a href="http://marxi.co/client_en">desktop client</a> and offline <a href="https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop">Chrome App</a>.</li>
+<li><strong>Sophisticated</strong> - deeply integrated with Evernote, supporting notebook &amp; tags, two-way bind editing.<br /></li>
+<li><strong>中文测试</strong> - 这是一段中文测试</li>
+</ul>
+
+<hr />
+
+<p>[TOC]</p>
+
+<h2 id="introducing-markdown">Introducing Markdown</h2>
+
+<blockquote>
+<p>Markdown is a plain text formatting syntax designed to be converted to HTML. Markdown is popularly used as format for readme files, &hellip; or in text editors for the quick creation of rich text documents.  - <a href="http://en.wikipedia.org/wiki/Markdown">Wikipedia</a></p>
+</blockquote>
+
+<p>As showed in this manual, it uses hash(#) to identify headings, emphasizes some text to be <strong>bold</strong> or <em>italic</em>. You can insert a <a href="http://www.example.com">link</a> , or a footnote<sup class="footnote-ref" id="fnref:demo"><a href="#fn:demo">1</a></sup>. Serveral advanced syntax are listed below, please press <code>Ctrl + /</code> to view Markdown cheatsheet.</p>
+
+<h3 id="code-block">Code block</h3>
+
+<pre><code class="language-python">@requires_authorization
+def somefunc(param1='', param2=0):
+    '''A docstring'''
+    if param1 &gt; param2: # interesting
+        print 'Greater'
+    return (param2 - param1 + 1) or None
+class SomeClass:
+    pass
+&gt;&gt;&gt; message = '''interpreter
+... prompt'''
+</code></pre>
+
+<h3 id="latex-expression">LaTeX expression</h3>
+
+<p>$$  x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
+
+<h3 id="table">Table</h3>
+
+<table>
+<thead>
+<tr>
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qt</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+
+<tr>
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+
+<tr>
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="diagrams">Diagrams</h3>
+
+<h4 id="flow-charts">Flow charts</h4>
+
+<pre><code class="language-flow">st=&gt;start: Start
+e=&gt;end
+op=&gt;operation: My Operation
+cond=&gt;condition: Yes or No?
+
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+</code></pre>
+
+<h4 id="sequence-diagrams">Sequence diagrams</h4>
+
+<pre><code class="language-sequence">Alice-&gt;Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob--&gt;Alice: I am good thanks!
+</code></pre>
+
+<blockquote>
+<p><strong>Note:</strong> You can find more information:</p>
+
+<ul>
+<li>about <strong>Sequence diagrams</strong> syntax <a href="http://bramp.github.io/js-sequence-diagrams/">here</a>,</li>
+<li>about <strong>Flow charts</strong> syntax <a href="http://adrai.github.io/flowchart.js/">here</a>.</li>
+</ul>
+</blockquote>
+
+<h3 id="checkbox">Checkbox</h3>
+
+<p>You can use <code>- [ ]</code> and <code>- [x]</code> to create checkboxes, for example:</p>
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Item1</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Item2</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Item3</label></li>
+</ul>
+
+<blockquote>
+<p><strong>Note:</strong> Currently it is only partially supported. You can&rsquo;t toggle checkboxes in Evernote. You can only modify the Markdown in Marxico to do that. Next version will fix this.</p>
+</blockquote>
+
+<h3 id="dancing-with-evernote">Dancing with Evernote</h3>
+
+<h4 id="notebook-tags">Notebook &amp; Tags</h4>
+
+<p><strong>Marxico</strong> add <code>@(Notebook)[tag1|tag2|tag3]</code> syntax to select notebook and set tags for the note. After typing <code>@(</code>, the notebook list would appear, please select one from it.</p>
+
+<h4 id="title">Title</h4>
+
+<p><strong>Marxico</strong> would adopt the first heading encountered as the note title. For example, in this manual the first line <code>Welcome to Marxico</code> is the title.</p>
+
+<h4 id="quick-editing">Quick Editing</h4>
+
+<p>Note saved by <strong>Marxico</strong> in Evernote would have a red ribbon button on the top-right corner. Click it and it would bring you back to <strong>Marxico</strong> to edit the note.</p>
+
+<blockquote>
+<p><strong>Note:</strong> Currently <strong>Marxico</strong> is unable to detect and merge any modifications in Evernote by user. Please go back to <strong>Marxico</strong> to edit.</p>
+</blockquote>
+
+<h4 id="data-synchronization">Data Synchronization</h4>
+
+<p>While saving rich HTML content in Evernote, <strong>Marxico</strong> puts the Markdown text in a hidden area of the note, which makes it possible to get the original text in <strong>Marxico</strong> and edit it again. This is a really brilliant design because:</p>
+
+<ul>
+<li>it is beyond just one-way exporting HTML which other services do;</li>
+<li>and it avoids privacy and security problems caused by storing content in a intermediate server.</li>
+</ul>
+
+<blockquote>
+<p><strong>Privacy Statement: All of your notes data are saved in Evernote. Marxico doesn&rsquo;t save any of them.</strong></p>
+</blockquote>
+
+<h4 id="offline-storage">Offline Storage</h4>
+
+<p><strong>Marxico</strong> stores your unsynchronized content locally in browser storage, so no worries about network and broswer crash. It also keeps the recent file list you&rsquo;ve edited in <code>Document Management(Ctrl + O)</code>.</p>
+
+<blockquote>
+<p><strong>Note:</strong> Although browser storage is reliable in the most time, Evernote is born to do that. So please sync the document regularly while writing.</p>
+</blockquote>
+
+<h2 id="shortcuts">Shortcuts</h2>
+
+<p>Help    <code>Ctrl + /</code>
+Sync Doc    <code>Ctrl + S</code>
+Create Doc    <code>Ctrl + Alt + N</code>
+Maximize Editor    <code>Ctrl + Enter</code>
+Preview Doc <code>Ctrl + Alt + Enter</code>
+Doc Management    <code>Ctrl + O</code>
+Menu    <code>Ctrl + M</code></p>
+
+<p>Bold    <code>Ctrl + B</code>
+Insert Image    <code>Ctrl + G</code>
+Insert Link    <code>Ctrl + L</code>
+Convert Heading    <code>Ctrl + H</code></p>
+
+<h2 id="about-pro">About Pro</h2>
+
+<p><strong>Marixo</strong> offers a free trial of 10 days. After that, you need to <a href="http://marxi.co/purchase.html">purchase</a> the Pro service. Otherwise, you would not be able to sync new notes. Previous notes can be edited and synced all the time.</p>
+
+<h2 id="credits">Credits</h2>
+
+<p><strong>Marxico</strong> was first built upon <a href="http://dillinger.io">Dillinger</a>, and the newest version is almost based on the awesome <a href="http://stackedit.io">StackEdit</a>. Acknowledgments to them and other incredible open source projects!</p>
+
+<h2 id="feedback-bug-report">Feedback &amp; Bug Report</h2>
+
+<ul>
+<li>Twitter: <a href="https://twitter.com/gock2">@gock2</a></li>
+<li>Email: <a href="mailto:hustgock@gmail.com">hustgock@gmail.com</a></li>
+</ul>
+
+<hr />
+
+<p>Thank you for reading this manual. Now please press <code>Ctrl + M</code> and click <code>Link with Evernote</code>. Enjoy your <strong>Marxico</strong> journey!</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:demo">This is a demo footnote. Read the <a href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes">MultiMarkdown Syntax Guide</a> to learn more. Note that Evernote disables ID attributes in its notes , so <code>footnote</code> and <code>TOC</code> are not actually working.
+ <a class="footnote-return" href="#fnref:demo"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/post/my-third-post/" class="left arrow">&#8592;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			<span>
+			&copy; <time datetime="2019-08-02 02:49:27.3098298 &#43;0800 CST m=&#43;0.092751801">2019</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>

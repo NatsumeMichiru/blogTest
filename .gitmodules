@@ -7,3 +7,12 @@
 [submodule "themes/hugo-theme-pixyll"]
 	path = themes/hugo-theme-pixyll
 	url = https://github.com/azmelanar/hugo-theme-pixyll
+[submodule "themes/lithium"]
+	path = themes/lithium
+	url = https://github.com/jrutheiser/hugo-lithium-theme
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "themes/black-and-light"]
+	path = themes/black-and-light
+	url = https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git
